@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Jost:wght@300&family=Sulphur+Point:wght@300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body :root {
+  height: 100%;
+}
+
+.markdown h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+.markdown h2 {
+  font-size: 2rem;
+  margin: 1.25rem 0;
+  font-weight: bold;
+}
+.markdown h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.25rem 0;
+}
+img[alt$=">"] {
+  padding: 0 15rem;
+}
+.markdown p {
+  font-size: 1.35rem;
+  font-weight: bold;
+  margin: 20px 0;
+  font-family: "Inter";
+  line-height: 1.8;
+}
+.markdown img {
+  width: 100%;
+  margin: 1.25rem 0;
+  border-radius: 1rem;
+}
+.markdown a {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+.markdown blockquote {
+  border-left: 0.25rem solid rgba(255, 255, 255, 0.25);
+  padding: 0 10px;
+  font-style: italic;
+  margin: 2.25rem 0;
+}
+
+.markdown code {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+.markdown pre div {
+  background: none !important;
+  padding: 0 !important;
+  padding: 20px 0 !important;
+}
+.markdown pre code {
+  display: block;
+  padding: 1.5rem;
+  border: none !important;
+  background: rgba(32, 32, 54, 0.406) !important;
+  font-size: 1.15rem !important;
+  overflow-x: auto;
+}
+
+.markdown ul {
+  list-style: circle;
+  padding-left: 1.2rem;
+}
+.markdown li {
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+}
+.markdown iframe {
+  width: 100%;
+  height: 40vh;
+  border-radius: 0.75rem;
+  margin: 1.5rem 0;
+}
