@@ -26,13 +26,24 @@ export default function BlogPost(props: any) {
             {frontmatter.date} • {frontmatter.readTime}
           </p>
           <p className="text-gray-700 dark:text-gray-400 mb-4"></p>
-          <div className="max-w-screen-xl mx-auto my-6 h-[60vh] w-full relative z-10 bg-center bg-no-repeat bg-cover md:rounded-[1.5rem]">
+          <div
+            className="max-w-screen-xl mx-auto my-6 md:h-[60vh] w-full relative z-10 bg-center bg-no-repeat bg-cover md:rounded-[1.5rem]
+          max-md: h-[30vh]
+          "
+          >
             <Image
               src={`/images/${props.params.slug}.jpg`}
               alt="image"
               width={1200}
               height={600}
-              className="object-cover object-center rounded-[1.5rem] h-full w-full"
+              className="object-cover object-center rounded-[1.5rem] h-full w-full
+              max-md:rounded-3xl
+                max-md:px-0
+                max-md:py-5
+                max-md:object-fill
+                max-md:h-[30vh]
+
+              "
             />
           </div>
           <div
