@@ -34,33 +34,23 @@ const Featured: React.FC<FeaturedProps> = ({
   btn2Link,
 }) => {
   const router = useRouter();
-  //   md:flex md:flex-row
-
-  //       md:items-start md:justify-center
-  //       md:gap-5
-  //     md:w-full
-  //     md:px-44
-  //     md:pt-20
-  //     md:pb-16
   return (
     <div
       className="md:flex md:flex-row
-     
       md:items-start md:justify-center 
-      md:gap-5
-    md:w-full
-    md:px-44
-    md:pt-20
-    md:pb-16
-    max-md:flex
+      md:gap-5 md:w-full
+      md:px-44
+      md:pt-8
+      md:pb-16
+      max-md:flex
       max-md:flex-col
-        max-md:items-center
-        max-md:justify-center
-        max-md: px-0
-        max-md: pt-0
-        max-md: pb-16
-        max-md: w-full
-        max-md: gap-5
+      max-md:items-center
+      max-md:justify-center
+      max-md: px-0
+      max-md: pt-0
+      max-md: pb-16
+      max-md: w-full
+      max-md: gap-5
     
     "
     >
@@ -85,7 +75,7 @@ const Featured: React.FC<FeaturedProps> = ({
             src={`/images/${image1}.jpg`}
             width="600"
             height="300"
-            className="object-cover w-full h-80 rounded-3xl relative"
+            className="object-cover w-full  max-2xl:h-96 h-128 rounded-3xl relative"
             alt=""
             onClick={() => router.push(btn1Link)}
           />

@@ -42,7 +42,7 @@ const Featured2: React.FC<Featured2Props> = ({
           src={`/images/${image2 || "default"}.jpg`}
           width={400}
           height="240"
-          className="object-cover w-full h-80 rounded-3xl relative"
+          className="object-cover w-full max-2xl:h-96 h-128 rounded-3xl relative"
           onClick={() => router.push(btn2Link)}
           alt=""
         />
