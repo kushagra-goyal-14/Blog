@@ -18,7 +18,7 @@ export default function BlogPost(props: any) {
   return (
     <div className="bg-black">
       <Container>
-        <div className="flex px-8 flex-col justify-center items-start max-w-4xl mx-auto">
+        <div className="flex pt-4 px-8 flex-col justify-center items-start max-w-4xl mx-auto">
           <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
             {frontmatter.title}
           </h1>
@@ -29,7 +29,7 @@ export default function BlogPost(props: any) {
           <div className="max-w-screen-xl mx-auto my-6 h-[60vh] w-full relative z-10 bg-center bg-no-repeat bg-cover md:rounded-[1.5rem]">
             <Image
               src={`/images/${props.params.slug}.jpg`}
-              alt={frontmatter.image}
+              alt="image"
               width={1200}
               height={600}
               className="object-cover object-center rounded-[1.5rem] h-full w-full"
@@ -41,7 +41,6 @@ export default function BlogPost(props: any) {
           markdown
           "
           >
-            {/* <ReactMarkdown>{markdownBody}</ReactMarkdown> */}
             <Markdown>{markdownBody}</Markdown>
           </div>
         </div>

@@ -82,3 +82,58 @@ img[alt$=">"] {
   border-radius: 0.75rem;
   margin: 1.5rem 0;
 }
+
+@media screen and (max-width: 360px) {
+  html,
+  body {
+    font-size: 9px;
+  }
+  img[alt$=">"] {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 411px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+  img[alt$=">"] {
+    padding: 0;
+  }
+  .markdown p,
+  .markdown li {
+    line-height: 3rem;
+    font-size: 1.75rem;
+  }
+  .markdown h1 {
+    font-size: 3.5rem;
+  }
+  .markdown h2 {
+    font-size: 3rem;
+  }
+  .markdown h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 769px) {
+  img[alt$=">"] {
+    padding: 0;
+  }
+  html,
+  body {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  img[alt$=">"] {
+    padding: 0;
+  }
+
+  html,
+  body {
+    font-size: 12px;
+  }
+}

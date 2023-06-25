@@ -9,7 +9,7 @@ export const metadata = {
   title: "Kushagra Goyal's Blog",
   description: "I am a developer and a student. I write about tech and life.",
   icons: {
-    icon: "favicon.png",
+    icon: "/favicon.png",
   },
 };
 

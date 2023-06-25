@@ -34,20 +34,44 @@ const Featured: React.FC<FeaturedProps> = ({
   btn2Link,
 }) => {
   const router = useRouter();
+  //   md:flex md:flex-row
+
+  //       md:items-start md:justify-center
+  //       md:gap-5
+  //     md:w-full
+  //     md:px-44
+  //     md:pt-20
+  //     md:pb-16
   return (
     <div
-      className="flex flex-row items-start justify-center 
-      gap-5
-    w-full
-    px-44
-    pt-20
-    pb-16
+      className="md:flex md:flex-row
+     
+      md:items-start md:justify-center 
+      md:gap-5
+    md:w-full
+    md:px-44
+    md:pt-20
+    md:pb-16
+    max-md:flex
+      max-md:flex-col
+        max-md:items-center
+        max-md:justify-center
+        max-md: px-0
+        max-md: pt-0
+        max-md: pb-16
+        max-md: w-full
+        max-md: gap-5
     
     "
     >
       <div
         className=" bg-black  
-        w-2/3
+        max-md:w-full
+        max-md:rounded-3xl
+        max-md:px-0
+        max-md:py-5
+        md: max-w-full
+        md: w-2/3
 
     
     "

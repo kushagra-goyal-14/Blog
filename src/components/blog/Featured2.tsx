@@ -23,7 +23,14 @@ const Featured2: React.FC<Featured2Props> = ({
       className=" bg-black border border-black
       border-r-1
       rounded-3xl
-    max-w-xs 
+      max-md:w-full
+        max-md:rounded-3xl
+        max-md:px-0
+        max-md:py-0
+     md:max-w-xs 
+        md:px-0
+        md:py-0
+        md: max-w-full
     "
     >
       <a

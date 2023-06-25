@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div>
       <h1
-        className="h-fit w-fit max-w-full fixed m-auto top-0 left-0 right-0 bottom-0 text-center text-border-thick text-[24vw] md:text-[11vw] opacity-10 text-white
+        className="h-fit w-fit max-w-full fixed m-auto top-0 left-0 right-0 bottom-0 text-center text-border-thick text-[24vw] md:text-[11vw] opacity-25 text-violet-700
           "
         style={{
           fontFamily: "Sulphur Point",
@@ -69,6 +69,13 @@ export default function Home() {
           className="flex flex-row items-center gap-5 px-44 py-2 
           justify-center
         flex-wrap
+        max-md:px-4
+        max-md:justify-start
+        max-md:items-start
+        max-md:flex-col
+        max-md:gap-5
+        max-md:py-5
+
         "
         >
           {
@@ -98,9 +105,9 @@ export default function Home() {
           }
         </div>
       </ContainerMain>
-      {/* <ContainerMain>
+      <ContainerMain>
         <Emailsubscribe />
-      </ContainerMain> */}
+      </ContainerMain>
     </div>
   );
 }
