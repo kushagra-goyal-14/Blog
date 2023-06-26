@@ -28,6 +28,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
       hover:border-violet-500
       rounded-3xl
       transform transition duration-500 hover:scale-110
+
       
     "
     >
@@ -60,8 +61,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
           <h5
             className=" text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             style={{
-              fontFamily: "Jost",
-              fontWeight: "600",
+              fontWeight: "800",
             }}
           >
             {heading}

@@ -7,7 +7,6 @@ const Emailsubscribe = () => {
         <h1
           className="text-4xl font-bold text-center text-white"
           style={{
-            fontFamily: "Jost",
             fontWeight: "bold",
           }}
         >

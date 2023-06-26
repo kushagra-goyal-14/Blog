@@ -39,7 +39,8 @@ export default function Home() {
   return (
     <div>
       <h1
-        className="h-fit w-fit max-w-full fixed m-auto top-0 left-0 right-0 bottom-0 text-center text-border-thick text-[24vw] md:text-[11vw] opacity-25 text-violet-700
+        className="h-fit w-fit max-w-full fixed m-auto top-0 left-0 right-0 bottom-0 text-center text-border-thick text-[24vw] md:text-[11vw] opacity-25 text-violet-700 
+        animate-pulse-slow
           "
         style={{
           fontFamily: "Sulphur Point",

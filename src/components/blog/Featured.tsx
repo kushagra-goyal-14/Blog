@@ -97,8 +97,8 @@ const Featured: React.FC<FeaturedProps> = ({
               className=" text-2xl relative font-bold tracking-tight text-gray-900 dark:text-white "
               style={{
                 cursor: "pointer",
-                fontFamily: "Jost",
-                fontWeight: "600",
+                fontWeight: "800",
+                fontSize: "2rem",
               }}
             >
               {heading1}

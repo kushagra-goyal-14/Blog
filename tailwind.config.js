@@ -15,7 +15,20 @@ module.exports = {
       height: {
         128: "32rem",
       },
+      animation: {
+        "bounce-slow": "bounce 2s infinite",
+        "pulse-slow": "pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
+      keyframes: {
+        pulse: {
+          "0%, 100%": { opacity: "0.35" },
+          "50%": { opacity: "0.1" },
+        },
+      },
     },
   },
   plugins: [],
+  variants: {
+    animation: ["responsive", "motion-safe", "motion-reduce"],
+  },
 };
