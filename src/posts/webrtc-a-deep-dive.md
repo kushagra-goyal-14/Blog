@@ -3,8 +3,8 @@ title: WebRTC - A Deep Dive
 description: WebRTC (Web Real-Time Communication) is an open-source project that provides web browsers and mobile applications with real-time communication via simple application programming interfaces (APIs). With WebRTC, you can build applications that allow peers to exchange audio, video, and data in real time without requiring plugins or additional software.
 readTime: 12 mins
 date: June20, 2023
-featured1: true
-featured2: false
+featured1: false
+featured2: true
 ---
 
 ## Have you ever wondered how Skype works ?
